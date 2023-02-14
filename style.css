@@ -1,0 +1,40 @@
+h1 {
+  font-size: 40px;
+  color: brown;
+  text-transform: uppercase;
+}
+
+#heading {
+  text-transform: capitalize;
+  letter-spacing: 4px;
+}
+
+.paragraph {
+  font-size: 20px;
+  font-style: oblique;
+}
+
+p.paragraph-two.paragraph-with-bg#paragraph {
+  background-color: aqua;
+  font-weight: bold;
+}
+
+.container input[type="number"] {
+  color: blue;
+}
+
+.container form input + input {
+  margin-left: 15px;
+}
+
+form + .list {
+  background-color: red;
+}
+
+body > .list {
+  background-color: green;
+}
+
+body > .list li + li {
+  background-color: blue;
+}
